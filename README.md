@@ -19,7 +19,7 @@ API 키는 https://openweathermap.org 에서 발급
 
 ### 2. 배포 링크
 
-- **Vercel**: 
+- **Vercel**: https://weather-app-assignment-page.vercel.app/
 
 ## 구현 기능
 
