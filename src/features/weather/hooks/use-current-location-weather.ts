@@ -11,7 +11,7 @@ const DEFAULT_LOCATION = {
 };
 
 function getPosition(): Promise<{ lat: number; lon: number; name: string }> {
-  return new Promise((resolve, reject) => {
+  return new Promise((resolve) => {
     if (!navigator.geolocation) {
       // 위치 지원 안하면 서울로
       resolve(DEFAULT_LOCATION);
